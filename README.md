@@ -21,6 +21,17 @@ Criar as variaveis no cloud
 Upar o codigo ao Cloud
 Verificar o uso das Bibliotecas : Lista das bibliotecas
 Criação de dashboard dentro do Arduino Cloud
+
+Pinout HC-BM280:
+|===
+| **HC-SR04** | **ESP32**       
+| VCC     | VCC 
+| GND     | GND           
+| SCL     | GPIO22              
+| SDA     | GPIO21
+| CSB     | -
+| SDO     | -                        
+|===
 (Extra: Usar arduino IDE para testes fora do cloud)
 HARDWARE MANUAL :
 Onde conectar cada fio e cada sensor
