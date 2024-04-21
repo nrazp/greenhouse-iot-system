@@ -11,3 +11,19 @@ The motivation behind the Greenhouse Monitoring and Automation Project stems fro
 ## Objectives of the Project
 The primary objectives of this IoT project center around optimizing greenhouse conditions for enhanced plant growth and management efficiency. By leveraging the ESP32 microcontroller alongside sensors for temperature, humidity, and soil moisture, the project aims to provide real-time monitoring of crucial environmental parameters within the greenhouse. This data not only facilitates proactive decision-making but also enables precise adjustments to ensure an optimal growth environment for plants. Moreover, with the ESP32's capability to control a water pump, the project seeks to automate irrigation processes, ensuring plants receive adequate hydration based on real-time soil moisture levels. The integration of Arduino IoT Cloud as the central platform adds another layer of functionality, enabling remote access for data visualization and seamless control of the water pump, thereby enhancing accessibility and convenience for greenhouse management. Ultimately, the project aims to maximize yield and resource efficiency while minimizing manual intervention through smart IoT solutions.
 
+Instalation manual :
+SOFTWARE MANUAL
+Criar uma conta no Arduino Cloud
+Conectar o Esp32 ao cloud
+  -> Criar Key do ESP32 e conectar ele a rede
+  -> Arduino Agent
+Criar as variaveis no cloud
+Upar o codigo ao Cloud
+Verificar o uso das Bibliotecas : Lista das bibliotecas
+Criação de dashboard dentro do Arduino Cloud
+(Extra: Usar arduino IDE para testes fora do cloud)
+HARDWARE MANUAL :
+Onde conectar cada fio e cada sensor
+Conectar na porta com o ESP32 do computador
+  -> Explicar possivel erro de boot e do ESP32 n conseguir usar metade dos pinos com wifi ligado.
+
