@@ -64,3 +64,9 @@ One of the objectives of this project is to not only control variables in a gree
 For informations on how to install and configure the app's used in this project, [click here](https://github.com/nrazp/greenhouse-iot-system/tree/main/Installation_and_Configuration_Manual)
 
 For more information on deploy and assembly, [click here](https://github.com/nrazp/greenhouse-iot-system/tree/main/greenhouse-variables)
+
+## Mentorship
+This project was developed with the mentorship of [Dhiego Fernandes Carvalho](https://github.com/DhiegoFC) professor at State University of São Paulo
+
+## References
+https://github.com/DhiegoFC/IoT_for_Embedded_Devices
