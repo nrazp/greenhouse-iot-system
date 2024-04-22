@@ -53,5 +53,5 @@ In this case, the LDR sensors and the HR43 water sensor use analog signal commun
 ## Communication Protocols
 When considering the network connection, the Arduino Cloud uses the MQTT protocol to communicate with the ESP32, which is connected to Wi-Fi as configured on the Arduino IoT Cloud platform. Finally, the Dashboard built on the Arduino IoT Cloud Platform can only be viewed via a request using the HTTP protocol, which is made by a computer or cell phone which connects to the Dashboard's web address via a web browser. The communication protocols with the sensors varies, from Analog in the LDR and HR43, to serial communication (DHT11).The final architecture looks like the following image : <br>
 
-![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/arquitetura_v1.2.jpg)
+![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/arquitetura_v1.3.jpg)
 
