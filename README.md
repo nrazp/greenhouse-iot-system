@@ -40,7 +40,7 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 #### LED
-<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/1941435412328b077d.webp" width=50% height=50%>
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/1941435412328b077d.webp" width=25% height=25%>
 
 | LED | ESP32 |
 | --- | --- |
