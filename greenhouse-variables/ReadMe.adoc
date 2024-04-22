@@ -28,18 +28,19 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
+ greenhouse-variables                     => Arduino sketch folder
+  ├── greenhouse-variables_apr16a.ino     => main Arduino file
+  ├── arduino_secrets.h                   => file with the Credentials needed for the Arduino IoT Plataform and Wi-fi
+  ├── sketch.json                         => JSON File with information necessary for the Arduino IoT Plataform (Generated Automatically in the Plataform)
+  ├── thingProperties.h                   => thingProperties function (Arduino IoT auto-generated function)
+  └── ReadMe.adoc                         => this file
 ....
 
 === License
 This project is released under a {License} License.
 
 === Contributing
-To contribute to this project please contact: natan.razera@gmail.com or 
+To contribute to this project please contact: natan.razera@gmail.com or luigi.grandi@unesp.br
 
 === BOM
 Bill of the materials you need for this project.
