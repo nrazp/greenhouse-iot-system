@@ -38,7 +38,7 @@ To create an Arduino Cloud account, follow these steps:
 | water_pump | boolean | Read & Write |
 
 ## Adding the code to Arduino Cloud
-* To enter the code that will be used in the ESP32, go to the "Sketch" tab in the "Thing" window and enter the code available here in the area proposed for entering the code, as seen in the image :
+* To enter the code that will be used in the ESP32, go to the "Sketch" tab in the "Thing" window and enter the code available [here](https://github.com/nrazp/greenhouse-iot-system/tree/main/greenhouse-variables) in the area proposed for entering the code, as seen in the image :
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Sketch.png)
 
 
