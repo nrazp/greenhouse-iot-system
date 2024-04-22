@@ -2,14 +2,14 @@
 
 ## Creating an account at Arduino Cloud
 To create an Arduino Cloud account, follow these steps:
-* Go to the website https://cloud.arduino.cc/ and click on the green "GET STARTED FOR FREE" button.
+* Go to the website https://cloud.arduino.cc/ and click on the green "GET STARTED FOR FREE" button. <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Account.png)
 * In the next window, click on the green text "Create One", which is just below the green "SIGN IN" button. You then need to tell the site your date of birth and an email address, username and password of your choice to create an account on the site. After accepting the site's Terms of Use and Privacy Policy, your account is now created and ready to connect to ESP32.
 * 
 ## Creating an Device on Arduino CLoud
-* To add the ESP32 device to the Arduino Cloud, first click on the green "Create New" button and select the "Thing" item
+* To add the ESP32 device to the Arduino Cloud, first click on the green "Create New" button and select the "Thing" item <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_New_Thing.png) 
-* In the new screen that appears, first click on the green button with the text Select Device written underneath.
+* In the new screen that appears, first click on the green button with the text Select Device written underneath. <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_New_Device.png) 
 * In the new window that appears, select the options "SET UP NEW DEVICE" -> "Third Party Device", then select the Item ESP32 and the Model "ESP32 Dev Module", as in the Image : <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Model_Selection.png)
@@ -25,7 +25,7 @@ To create an Arduino Cloud account, follow these steps:
 
 * To create a variable in the code that is monitored or changed by devices connected to the Arduino Cloud, you must create a "Cloud variable". Bear in mind that a free Arduino Cloud account only allows 5 "Cloud Variables" to be created. 
 
-* First, click on the green "ADD" button next to the text "Cloud Variables"
+* First, click on the green "ADD" button next to the text "Cloud Variables" <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_New_Variable.png)
 * A new window will then appear, in which you must enter the name of the variable, select its type, whether it is a Read Only or Read and Write variable, and select whether its value should change periodically or when the value read is different from the previous value, so you must enter a time for the value to change or a Threshold for changing the value of the variable, respectively. Then just click on the green "ADD VARIABLE" button and the variable is created. For this project, the following variables were created with the following settings : <br>
 
