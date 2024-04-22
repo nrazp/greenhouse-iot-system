@@ -17,9 +17,7 @@ This IoT project involves the use of an ESP32 microcontroller connected to Ardui
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
-
-
+Assemble the circuit as the viewed in the main README file
 
 == Step 3: Load the code
 
