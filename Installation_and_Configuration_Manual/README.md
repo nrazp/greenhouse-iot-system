@@ -11,7 +11,7 @@ To create an Arduino Cloud account, follow these steps:
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_New_Thing.png) 
 * In the new screen that appears, first click on the green button with the text Select Device written underneath.
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_New_Device.png) 
-* In the new window that appears, select the options "SET UP NEW DEVICE" -> "Third Party Device", then select the Item ESP32 and the Model "ESP32 Dev Module", as in the Image :
+* In the new window that appears, select the options "SET UP NEW DEVICE" -> "Third Party Device", then select the Item ESP32 and the Model "ESP32 Dev Module", as in the Image : <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Model_Selection.png)
 * Then click on the Continue button, give the Device a name and then click on the "NEXT" button. The device's Device ID and Secret Key are then displayed, which must be saved in order to configure the connection to the device. After saving the data, click on the item "I saved my Device ID and Secret Key" and then on "CONTINUE" and then on the "DONE" button, thus creating the device in the Arduino Cloud.
 
