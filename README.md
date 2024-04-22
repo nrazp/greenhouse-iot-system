@@ -13,7 +13,7 @@ The primary objectives of this IoT project center around optimizing greenhouse c
 
 ## Architecture
 The project can have its architecture divided into the part connected to the ESP32 by the sensors and actuators and the part connected to the network. Considering the part physically connected to the ESP32, we have the following connections:
-### DHT11
+#### DHT11
 
 | DHT11 | ESP32 |
 | --- | --- |
