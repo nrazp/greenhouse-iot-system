@@ -31,6 +31,7 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 #### HR43
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/WaterSensor.jpeg">
 
 | HR43 | ESP32 |
 | --- | --- |
