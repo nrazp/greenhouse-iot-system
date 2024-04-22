@@ -49,7 +49,8 @@ When considering the network connection, the Arduino Cloud uses the MQTT protoco
 
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/arquitetura_v1.2.jpg)
 
-Instalation manual : <br>
+Installation and Configuration Manual :
+<br>
 SOFTWARE MANUAL <br>
 Criar uma conta no Arduino Cloud  <br>
 Conectar o Esp32 ao cloud <br>
