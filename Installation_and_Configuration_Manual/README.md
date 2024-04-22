@@ -29,6 +29,15 @@ To create an Arduino Cloud account, follow these steps:
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_New_Variable.png)
 * A new window will then appear, in which you must enter the name of the variable, select its type, whether it is a Read Only or Read and Write variable, and select whether its value should change periodically or when the value read is different from the previous value, so you must enter a time for the value to change or a Threshold for changing the value of the variable, respectively. Then just click on the green "ADD VARIABLE" button and the variable is created. For this project, the following variables were created with the following settings : <br>
 
+| Variable Name | Variable Type | Variable Permission | 
+| --- | --- | --- |
+| humidity | float | Read Only |
+| luminosity | float | Read Only |
+| moisture | float | Read Only |
+| temperature | float | Read Only |
+| water_pump | float | Read & Write |
+
+
 
 Conectar o Esp32 ao cloud <br>
 -> Criar Key do ESP32 e conectar ele a rede <br>
