@@ -14,7 +14,7 @@ The primary objectives of this IoT project center around optimizing greenhouse c
 ## Architecture
 The project can have its architecture divided into the part connected to the ESP32 by the sensors and actuators and the part connected to the network. Considering the part physically connected to the ESP32, we have the following connections:
 #### DHT11
-<img src="https://github.com/nrazp/greenhouse-iot-system/assets/163911384/14011df1-5a60-4e9c-8f87-125a9cbfa97c " width=50% height=50%>
+<img src="https://github.com/nrazp/greenhouse-iot-system/assets/163911384/14011df1-5a60-4e9c-8f87-125a9cbfa97c " width=25% height=25%>
 
 | DHT11 | ESP32 |  
 | --- | --- |
