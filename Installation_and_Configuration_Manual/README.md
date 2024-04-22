@@ -5,7 +5,7 @@ To create an Arduino Cloud account, follow these steps:
 * Go to the website https://cloud.arduino.cc/ and click on the green "GET STARTED FOR FREE" button. <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Account.png)
 * In the next window, click on the green text "Create One", which is just below the green "SIGN IN" button. You then need to tell the site your date of birth and an email address, username and password of your choice to create an account on the site. After accepting the site's Terms of Use and Privacy Policy, your account is now created and ready to connect to ESP32.
-* 
+
 ## Creating an Device on Arduino CLoud
 * To add the ESP32 device to the Arduino Cloud, first click on the green "Create New" button and select the "Thing" item <br>
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_New_Thing.png) 
