@@ -23,6 +23,7 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 #### LDR
+<img src="https://github.com/nrazp/greenhouse-iot-system/assets/163911384/14011df1-5a60-4e9c-8f87-125a9cbfa97c ">
 
 | LDR | ESP32 |
 | --- | --- |
