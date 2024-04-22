@@ -4,11 +4,11 @@
 :Revision: version#
 :License: Public Domain
 
-= Project: {Project}
+= Project: Greenhouse IoT System
 
-Describe your project
-
+This IoT project involves the use of an ESP32 microcontroller connected to Arduino Cloud to monitor and control various aspects of a greenhouse environment. 
 == Step 1: Installation
+
 Please describe the steps to install this project.
 
 For example:
