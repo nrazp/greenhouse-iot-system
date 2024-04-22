@@ -35,7 +35,7 @@ To create an Arduino Cloud account, follow these steps:
 | luminosity | float | Read Only |
 | moisture | float | Read Only |
 | temperature | float | Read Only |
-| water_pump | float | Read & Write |
+| water_pump | boolean | Read & Write |
 
 
 
