@@ -18,14 +18,14 @@ The project can have its architecture divided into the part connected to the ESP
 | DHT11 | ESP32 |
 | --- | --- |
 | VCC | 3V3 |
-| DATA | ?? |
+| DATA | 12 |
 | GND | GND |
 
 #### LDR
 
 | LDR | ESP32 |
 | --- | --- |
-| VCC | 3V3/?? |
+| VCC | 3V3/35 |
 | GND | GND |
 
 #### HR43
@@ -33,14 +33,14 @@ The project can have its architecture divided into the part connected to the ESP
 | HR43 | ESP32 |
 | --- | --- |
 | VCC | 3V3 |
-| S | ?? |
+| S | 32 |
 | GND | GND |
 
 #### LED
 
 | LED | ESP32 |
 | --- | --- |
-| VCC | ?? |
+| VCC | 27 |
 | GND | GND |
 
 
