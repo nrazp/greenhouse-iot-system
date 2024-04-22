@@ -1,5 +1,5 @@
-# Installation and Configuration Manual
-SOFTWARE MANUAL <br>
+# Installation and Configuration
+SOFTWARE <br>
 Criar uma conta no Arduino Cloud <br>
 Conectar o Esp32 ao cloud <br>
 -> Criar Key do ESP32 e conectar ele a rede <br>
