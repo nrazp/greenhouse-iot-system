@@ -7,19 +7,19 @@
 = Project: Greenhouse IoT System
 
 This IoT project involves the use of an ESP32 microcontroller connected to Arduino Cloud to monitor and control various aspects of a greenhouse environment. 
+
 == Step 1: Installation
 
-Please describe the steps to install this project.
-
-For example:
-
-1. Open this file
-2. Edit as you like
+1. Download the files or view them at the Arduino IoT Plataform (https://create.arduino.cc/editor/n-raz-p/6c210098-bce5-475b-93c0-c5acf8e1dcf1/preview)
+2. Upload them at your Arduino IoT Cloud
+3. Upload to your project
 3. Release to the World!
 
 == Step 2: Assemble the circuit
 
 Assemble the circuit following the diagram layout.png attached to the sketch
+
+
 
 == Step 3: Load the code
 
