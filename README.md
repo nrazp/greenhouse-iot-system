@@ -49,19 +49,9 @@ The project can have its architecture divided into the part connected to the ESP
 
 
 In this case, the LDR sensors and the HR43 water sensor use analog signal communication to send data to the ESP32, while the DHT11 sensor uses its own communication to send the temperature and humidity data to the ESP32 via its DATA pin (if you want to learn more about the communication between the DHT11 and the ESP32, the following link explains its communication in detail: https: //www.makerguides.com/esp32-dht11-dht22-humidity-temperature-sensor/). For now, in order to check its viability, the project contains an LED instead of a water pump designed to turn on and off in order to supply the right amount of water to the plant located inside the IoT Greenhouse, with communication between the LED and the ESP32 being done digitally. <br>
-When considering the network connection, the Arduino Cloud uses the MQTT protocol to communicate with the ESP32, which is connected to Wi-Fi as configured on the Arduino IoT Cloud platform. Finally, the Dashboard built on the Arduino IoT Cloud Platform can only be viewed via a request using the HTTP protocol, which is made by a computer or cell phone which connects to the Dashboard's web address via a web browser. The final architecture looks like the following image : <br>
+
+## Communication Protocols
+When considering the network connection, the Arduino Cloud uses the MQTT protocol to communicate with the ESP32, which is connected to Wi-Fi as configured on the Arduino IoT Cloud platform. Finally, the Dashboard built on the Arduino IoT Cloud Platform can only be viewed via a request using the HTTP protocol, which is made by a computer or cell phone which connects to the Dashboard's web address via a web browser. The communication protocols with the sensors varies, from Analog in the LDR and HR43, to serial communication (DHT11).The final architecture looks like the following image : <br>
 
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/arquitetura_v1.2.jpg)
 
-Installation and Configuration Manual :
-<br>
-SOFTWARE MANUAL <br>
-Criar uma conta no Arduino Cloud  <br>
-Conectar o Esp32 ao cloud <br>
-  -> Criar Key do ESP32 e conectar ele a rede <br>
-  -> Arduino Agent <br>
-Criar as variaveis no cloud <br>
-Upar o codigo ao Cloud <br>
-Verificar o uso das Bibliotecas : Lista das bibliotecas <br>
-Criação de dashboard dentro do Arduino Cloud <br>
-  -> Explicar possivel erro de boot e do ESP32 n conseguir usar metade dos pinos com wifi ligado. <br>
