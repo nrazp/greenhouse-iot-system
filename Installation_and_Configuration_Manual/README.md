@@ -40,13 +40,3 @@ To create an Arduino Cloud account, follow these steps:
 ## Adding the code to Arduino Cloud
 * To enter the code that will be used in the ESP32, go to the "Sketch" tab in the "Thing" window and enter the code available [here](https://github.com/nrazp/greenhouse-iot-system/tree/main/greenhouse-variables) in the area proposed for entering the code, as seen in the image :
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Sketch.png)
-
-
-Conectar o Esp32 ao cloud <br>
--> Criar Key do ESP32 e conectar ele a rede <br>
--> Arduino Agent <br>
-Criar as variaveis no cloud <br>
-Upar o codigo ao Cloud <br>
-Verificar o uso das Bibliotecas : Lista das bibliotecas <br>
-Criação de dashboard dentro do Arduino Cloud <br>
--> Explicar possivel erro de boot e do ESP32 n conseguir usar metade dos pinos com wifi ligado. <br>
