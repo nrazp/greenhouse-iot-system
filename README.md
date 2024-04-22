@@ -62,4 +62,5 @@ One of the objectives of this project is to not only control variables in a gree
 
 ## Time to Make the project yourself
 For informations on how to install and configure the app's used in this project, [click here](https://github.com/nrazp/greenhouse-iot-system/tree/main/Installation_and_Configuration_Manual)
+
 For more information on deploy and assembly, [click here](https://github.com/nrazp/greenhouse-iot-system/tree/main/greenhouse-variables)
