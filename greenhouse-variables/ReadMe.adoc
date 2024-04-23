@@ -53,3 +53,14 @@ Bill of the materials you need for this project.
 | M1  | HR43 sensor     | 1
 | Wa1 | Water Pump      | 1
 |===
+
+=== Libraries used
+Libraries used in the Project
+
+....
+Libraries                   
+  ├── DHT11.h                             => DHT11 sensor library
+  ├── thingProperties.h                   => thingProperties library (Auto-generated)
+  └── Others                              => Others files (Auto-included by the Arduino IoT Cloud Plataform)
+....
+
