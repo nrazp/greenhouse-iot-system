@@ -40,7 +40,7 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 #### Relay
-<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/relay.webp" width=50% height=50%>
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/relay.webp" width=25% height=25%>
 
 | Relay | ESP32 |
 | --- | --- |
