@@ -49,7 +49,7 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 #### MQ-135
-<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/mq-135.webp">
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/mq-135_sensor.webp">
 
 | MQ-135 | ESP32 |
 | --- | --- |
