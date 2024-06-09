@@ -39,6 +39,32 @@ The project can have its architecture divided into the part connected to the ESP
 | S | 32 |
 | GND | GND |
 
+#### Relay
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/WaterSensor.jpeg">
+
+| Relay | ESP32 |
+| --- | --- |
+| VCC | 3V3 |
+| S | 33 |
+| GND | GND |
+
+#### MQ-135
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/rele.png">
+
+| MQ-135 | ESP32 |
+| --- | --- |
+| VCC | 3V3 |
+| Digital Out | 28 |
+| GND | GND |
+
+#### WATER PUMP
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Bomba_de_agua.png">
+
+| Pump | - |
+| --- | --- |
+| VCC | NO Terminal |
+| GND | GND |
+
 #### LED
 <img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/1941435412328b077d.webp" width=25% height=25%>
 
