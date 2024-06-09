@@ -40,7 +40,7 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 #### Relay
-<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/WaterSensor.jpeg">
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/relay.webp">
 
 | Relay | ESP32 |
 | --- | --- |
@@ -58,7 +58,7 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 #### WATER PUMP
-<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Bomba_de_agua.png">
+<img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/water%20pump.webp">
 
 | Pump | - |
 | --- | --- |
