@@ -60,7 +60,7 @@ The project can have its architecture divided into the part connected to the ESP
 #### WATER PUMP
 <img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/water%20pump.webp">
 
-| Pump | - |
+| Pump | Relay |
 | --- | --- |
 | VCC | NO Terminal |
 | GND | GND |
