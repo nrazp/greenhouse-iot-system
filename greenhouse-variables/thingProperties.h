@@ -9,22 +9,37 @@ const char SSID[]               = SECRET_SSID;    // Network SSID (name)
 const char PASS[]               = SECRET_OPTIONAL_PASS;    // Network password (use for WPA, or use as key for WEP)
 const char DEVICE_KEY[]  = SECRET_DEVICE_KEY;    // Secret device password
 
+void onSmokeChange();
+void onSprinkleChange();
+void onLightsChange();
+void onSmokeAlertChange();
+void onTriggerChange();
 void onWaterPumpChange();
 
 float humidity;
 float luminosity;
 float moisture;
+float smoke;
 float temperature;
+CloudSchedule sprinkle;
+bool lights;
+bool smoke_alert;
+bool trigger;
 bool water_pump;
 
 void initProperties(){
 
   ArduinoCloud.setBoardId(DEVICE_LOGIN_NAME);
   ArduinoCloud.setSecretDeviceKey(DEVICE_KEY);
-  ArduinoCloud.addProperty(humidity, READ, 1 * SECONDS, NULL);
-  ArduinoCloud.addProperty(luminosity, READ, 1 * SECONDS, NULL);
-  ArduinoCloud.addProperty(moisture, READ, 1 * SECONDS, NULL);
-  ArduinoCloud.addProperty(temperature, READ, 1 * SECONDS, NULL);
+  ArduinoCloud.addProperty(humidity, READ, 10 * SECONDS, NULL);
+  ArduinoCloud.addProperty(luminosity, READ, 10 * SECONDS, NULL);
+  ArduinoCloud.addProperty(moisture, READ, 10 * SECONDS, NULL);
+  ArduinoCloud.addProperty(smoke, READWRITE, 1 * SECONDS, onSmokeChange);
+  ArduinoCloud.addProperty(temperature, READ, 10 * SECONDS, NULL);
+  ArduinoCloud.addProperty(sprinkle, READWRITE, ON_CHANGE, onSprinkleChange);
+  ArduinoCloud.addProperty(lights, READWRITE, ON_CHANGE, onLightsChange);
+  ArduinoCloud.addProperty(smoke_alert, READWRITE, ON_CHANGE, onSmokeAlertChange);
+  ArduinoCloud.addProperty(trigger, READWRITE, ON_CHANGE, onTriggerChange);
   ArduinoCloud.addProperty(water_pump, READWRITE, ON_CHANGE, onWaterPumpChange);
 
 }
