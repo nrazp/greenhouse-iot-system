@@ -34,7 +34,11 @@ To create an Arduino Cloud account, follow these steps:
 | humidity | float | Read Only |
 | luminosity | float | Read Only |
 | moisture | float | Read Only |
+| smoke | float | Read Only |
 | temperature | float | Read Only |
+| sprinkle | CloudSchedule | Read & Write |
+| Trigger | bool | Read & Write |
+| lights | boolean | Read & Write |
 | water_pump | boolean | Read & Write |
 
 ## Adding the code to Arduino Cloud
