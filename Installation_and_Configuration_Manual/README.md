@@ -41,12 +41,8 @@ To create an Arduino Cloud account, follow these steps:
 | lights | boolean | Read & Write |
 | water_pump | boolean | Read & Write |
 
-## Adding the code to Arduino Cloud
-* To enter the code that will be used in the ESP32, go to the "Sketch" tab in the "Thing" window and enter the code available [here](https://github.com/nrazp/greenhouse-iot-system/tree/main/greenhouse-variables) in the area proposed for entering the code, as seen in the image :
-![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Sketch.png)
-
-## Upload the Code to your Microcontroller via Arduino IoT Cloud Full Code Editor
-* The easiest way to upload code to your Microcontroller, in this type of project, is to use the "Verify and Upload" function in the Arduino IoT Full Code Editor. This way, you won't have to download the different libraries used by the Platform. But to use that, you must download the [Arduino Create Agente](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent) program. This program allows you to upload the files to your Microcontroller via Arduino Cloud Code Editor.
+## Adding the code to Arduino Cloud and Uploading the Code to your Microcontroller via Arduino IoT Cloud Full Code Editor
+* To enter the code that will be used in the ESP32, go to the "Sketch" tab in the "Thing" window and enter the code available [here](https://github.com/nrazp/greenhouse-iot-system/tree/main/greenhouse-variables) The easiest way to upload code to your Microcontroller, in this type of project, is to use the "Verify and Upload" function in the Arduino IoT Full Code Editor. This way, you won't have to download the different libraries used by the Platform. But to use that, you must download the [Arduino Create Agente](https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent) program. This program allows you to upload the files to your Microcontroller via Arduino Cloud Code Editor.
 ![](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/ArduinoCodeEditor.png)
 * In the Full editor you are able to search every library you need to use and add it to your project.
 
