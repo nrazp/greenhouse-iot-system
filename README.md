@@ -44,9 +44,10 @@ The project can have its architecture divided into the part connected to the ESP
 
 | Relay | ESP32 |
 | --- | --- |
-| VCC | 3V3 |
+| VCC | 5V[External Source (ES)] |
 | S | 18 |
 | GND | GND |
+| COM | 5V(ES) |
 
 #### MQ-135
 <img src="https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/mq-135_module.webp" width=25% height=25%>
