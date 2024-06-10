@@ -45,7 +45,7 @@ The project can have its architecture divided into the part connected to the ESP
 | Relay | ESP32 |
 | --- | --- |
 | VCC | 3V3 |
-| S | 33 |
+| S | 18 |
 | GND | GND |
 
 #### MQ-135
@@ -53,8 +53,8 @@ The project can have its architecture divided into the part connected to the ESP
 
 | MQ-135 | ESP32 |
 | --- | --- |
-| VCC | 3V3 |
-| Digital Out | 28 |
+| VCC | 5V (ES) |
+| Digital Out | 33 |
 | GND | GND |
 
 #### WATER PUMP
@@ -74,10 +74,10 @@ The project can have its architecture divided into the part connected to the ESP
 | GND | GND |
 
 
-In this case, the LDR sensors and the HR43 water sensor use analog signal communication to send data to the ESP32, while the DHT11 sensor uses its own communication to send the temperature and humidity data to the ESP32 via its DATA pin (if you want to learn more about the communication between the DHT11 and the ESP32, the following link explains its communication in detail: https: //www.makerguides.com/esp32-dht11-dht22-humidity-temperature-sensor/). The project also contains an LED designed to adequate the luminosity of the greenhouse and a water pump designed to turn on and off in order to supply the right amount of water to the plant located inside the IoT Greenhouse, withe energy being given to the water pump by a relay connected with the ESP32. The communication of the Relay and the LED with the ESP32 is done digitally. <br>
+In this case, the LDR sensors, the MQ-135 sensor and the HR43 water sensor use analog signal communication to send data to the ESP32, while the DHT11 sensor uses its own communication to send the temperature and humidity data to the ESP32 via its DATA pin (if you want to learn more about the communication between the DHT11 and the ESP32, the following link explains its communication in detail: https: //www.makerguides.com/esp32-dht11-dht22-humidity-temperature-sensor/). The project also contains an LED designed to adequate the luminosity of the greenhouse and a water pump designed to turn on and off in order to supply the right amount of water to the plant located inside the IoT Greenhouse, withe energy being given to the water pump by a relay connected with the ESP32. The communication of the Relay and the LED with the ESP32 is done digitally. <br>
 
 ## Communication Protocols
-When considering the network connection, the Arduino Cloud uses the MQTT protocol to communicate with the ESP32, which is connected to Wi-Fi as configured on the Arduino IoT Cloud platform. Finally, the Dashboard built on the Arduino IoT Cloud Platform can only be viewed via a request using the HTTP protocol, which is made by a computer or cell phone which connects to the Dashboard's web address via a web browser. The communication protocols with the sensors varies, from Analog in the LDR and HR43, to serial communication (DHT11) and Digital Communication in the caso of the MQ-135 sensor. The final architecture looks like the following image : <br>
+When considering the network connection, the Arduino Cloud uses the MQTT protocol to communicate with the ESP32, which is connected to Wi-Fi as configured on the Arduino IoT Cloud platform. Finally, the Dashboard built on the Arduino IoT Cloud Platform can only be viewed via a request using the HTTP protocol, which is made by a computer or cell phone which connects to the Dashboard's web address via a web browser. The communication protocols with the sensors varies, from Analog in the LDR, MQ-135 and HR43, to serial communication (DHT11). The final architecture looks like the following image : <br>
 
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arquitetura%20v2.2.jpg)
 
