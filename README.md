@@ -44,7 +44,7 @@ The project can have its architecture divided into the part connected to the ESP
 
 | Relay | ESP32 |
 | --- | --- |
-| VCC | 5V[External Source (ES)] |
+| VCC | 5V [External Source (ES)] |
 | S | 18 |
 | GND | GND |
 | COM | 5V(ES) |
