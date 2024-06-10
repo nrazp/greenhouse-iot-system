@@ -50,7 +50,7 @@ To create an Arduino Cloud account, follow these steps:
 ![](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/ArduinoCodeEditor.png)
 * In the Full editor you are able to search every library you need to use and add it to your project.
 
-## Adding the Trigger to Arduino Cloud
+## Adding a Trigger to Arduino Cloud
 * To create a Trigger (i.e. an action that is activated automatically depending on a previously configured condition), first access the “Triggers” tab in the side menu of the Arduino Cloud screen. In the new window that opens, press the green “Cloud Variable” button with the LED symbol.
 ![](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/Arduino_Cloud_Trig_Screen.png)
 * In the new window, choose which variable will be monitored to activate the Trigger by clicking on the variable and then on the green “LINK VARIABLE” button.
