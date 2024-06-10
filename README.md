@@ -1,7 +1,7 @@
 # Greenhouse-IoT-System
 
 ## Project Overview:
-This IoT project involves the use of an ESP32 microcontroller connected to Arduino Cloud to monitor and control various aspects of a greenhouse environment. The ESP32 is equipped with sensors to measure temperature, humidity, luminosity, soil moisture and nocive gases. Additionally, it's capable of controlling a water pump to hydrate the plants as needed and an LED if more light is necessary . The Arduino IoT Cloud serves as the central platform for data visualization and remote control of the water pump and LED.
+This IoT project involves the use of an ESP32 microcontroller connected to Arduino Cloud to monitor and control various aspects of a greenhouse environment. The ESP32 is equipped with sensors to measure temperature, humidity, luminosity, soil moisture and nocive gases. Additionally, it's capable of controlling a water pump to hydrate the plants as needed and an LED if more light is necessary . The Arduino IoT Cloud serves as the central platform for data visualization and remote control of the water pump and LED. As a warning, this project is utilizing an Account with the Maker Plan Subscription on Arduino Cloud, thus making the project possible.
 
 ##  Motivation for the Project
 In recent years, there has been a growing emphasis on sustainable agriculture and food production methods. Greenhouses play a vital role in this movement by providing controlled environments for plant growth, allowing for year-round cultivation and optimized resource utilization. However, traditional greenhouse management methods often rely on manual monitoring and intervention, which can be labor-intensive, inefficient, and prone to human error.
