@@ -51,7 +51,10 @@ Bill of the materials you need for this project.
 | D1  | DHT11 sensor    | 1
 | Lu1 | LDR sensor      | 1
 | M1  | HR43 sensor     | 1
+| MQ  | MQ-135 sensor   | 1
+| RL  | Relay Module    | 1
 | Wa1 | Water Pump      | 1
+| PT  | Plastic Tube    | 1 meter
 |===
 
 === Libraries used
