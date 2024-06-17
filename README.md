@@ -86,7 +86,7 @@ When considering the network connection, the Arduino Cloud uses the MQTT protoco
 One of the objectives of this project is to not only control variables in a greenhouse but also visualize and monitor the data collected. To achieve this, a dashboard is utilized to control and monitor the data collected by our project. In the Arduino IoT Cloud, we have the option to create a dashboard that allows us to visualize our data on a computer or cellphone. The dashboard created for this project is as follows:
 
 ![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/greenhouse-dashboard-1.png)
-![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/greenhouse-dashboard-2.png)
+![alt text](https://github.com/nrazp/greenhouse-iot-system/blob/main/Images/greenhouse-dashboard-3.png)
 
 ## Time to Make the project yourself
 For informations on how to install and configure the app's used in this project, [click here](https://github.com/nrazp/greenhouse-iot-system/tree/main/Installation_and_Configuration_Manual)
